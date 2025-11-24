@@ -1,10 +1,10 @@
-Iris Restaurant Billing System
+# Iris Restaurant Billing System
 
-Overview:
+## Overview:
 
 Welcome to the Iris Restaurant Billing System! This isn't just code; it's a quick, reliable digital cashier built entirely with Python. It was designed to solve a huge real-world headache: manual billing errors and delays. This friendly, command-line application handles the entire transaction—from showing the menu to taking complex, multi-item orders, applying the 8% sales tax flawlessly, and printing a professional receipt. Say goodbye to pen and paper!
 
-Features
+## Features
 
 Clear Menu Display: No confusing numbers here! We show all 23 delicious menu items with their unique codes and prices in a neatly organized, easy-to-read list.
 
@@ -18,7 +18,7 @@ Flawless Tax: Forget manual tax calculations. The system automatically applies t
 
 Professional Receipt: The final output looks great—it's a clean, aligned, and professional receipt ready to present to the customer.
 
-Technologies/Tools Used
+## Technologies/Tools Used
 
 Python 3: The whole application is powered by clean, readable Python code.
 
@@ -37,11 +37,11 @@ Run from Terminal: Open your terminal or command prompt, navigate to the directo
 python billing_system.py
 
 
-Instructions for Testing
+## Instructions for Testing
 
 We built this to be robust! Follow these simple steps to ensure everything works, especially the crash-proofing features:
 
-1. Happy Path Test (Successful Transaction)
+-1. Happy Path Test (Successful Transaction)
 
 Enter code 1 (Paneer Lababdar).
 
@@ -55,7 +55,7 @@ Enter DONE.
 
 Expected Result: A complete bill showing the correct subtotal, 8% tax, and grand total.
 
-2. Input Validation Test (Quantity)
+-2. Input Validation Test (Quantity)
 
 Enter a valid code, e.g., 3.
 
@@ -67,10 +67,10 @@ Enter 0 (non-positive).
 
 Expected Result: The system should print "Quantity must be a positive number." and prompt again.
 
-3. Invalid Code Test (Menu Code)
+-3. Invalid Code Test (Menu Code)
 
 Enter a code that doesn't exist, e.g., 99.
 
 Expected Result: The system should print "Invalid menu code. Please try again or enter 'DONE'."
 
-Screenshots (Conceptual)
+## Screenshots:
