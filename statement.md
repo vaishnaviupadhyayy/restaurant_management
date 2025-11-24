@@ -38,30 +38,12 @@ Small Business Owners: Owners of small eateries who require a minimal, low-cost 
 
 Students/Developers: The application serves as a clean example of procedural programming, dictionary manipulation, and input validation in Python.
 
-High-Level Features
+High-Level Features:
 
 The system is built upon three core feature groups, represented by the main functions:
 
-Feature Group
+Presentation (display_menu): Displays the current menu in a clear, formatted structure for the cashier.
 
-Description
+Transaction Processing (take_order): Handles the loop of order input, item lookup, quantity validation, and compilation of the final order list.
 
-Relevant Function
-
-Presentation
-
-Displays the current menu in a clear, formatted structure.
-
-display_menu()
-
-Transaction Processing
-
-Handles the loop of order input, item lookup, quantity validation, and compilation of the final order list.
-
-take_order()
-
-Financial Computation
-
-Executes all necessary arithmetic: summing line totals, calculating sales tax (8%), and determining the final amount due.
-
-generate_bill()
+Financial Computation (generate_bill): Executes all necessary arithmetic: summing line totals, calculating sales tax (8%), and determining the final amount due.
