@@ -1,6 +1,6 @@
 Iris Restaurant Billing System
 
-Overview
+Overview:
 
 Welcome to the Iris Restaurant Billing System! This isn't just code; it's a quick, reliable digital cashier built entirely with Python. It was designed to solve a huge real-world headache: manual billing errors and delays. This friendly, command-line application handles the entire transaction—from showing the menu to taking complex, multi-item orders, applying the 8% sales tax flawlessly, and printing a professional receipt. Say goodbye to pen and paper!
 
