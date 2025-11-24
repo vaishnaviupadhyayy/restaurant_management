@@ -2,7 +2,7 @@
 
 ## Overview:
 
-Welcome to the Iris Restaurant Billing System! This isn't just code; it's a quick, reliable digital cashier built entirely with Python. It was designed to solve a huge real-world headache: manual billing errors and delays. This friendly, command-line application handles the entire transaction—from showing the menu to taking complex, multi-item orders, applying the 8% sales tax flawlessly, and printing a professional receipt. Say goodbye to pen and paper!
+Welcome to the Iris Restaurant Billing System! It's a quick, reliable digital cashier built entirely with Python. It was designed to solve a real-world problem: manual billing errors and delays. This friendly, command-line application handles the entire transaction—from showing the menu to taking complex, multi-item orders, applying the 8% sales tax flawlessly, and printing a professional receipt.
 
 ## Features
 
@@ -12,7 +12,7 @@ Effortless Ordering: The system is patient! You can keep entering item codes and
 
 Crash-Proof Input: We built in strong validation using Python's try-except blocks. If you accidentally type a letter instead of a quantity, the program won't crash—it just asks nicely for the correct input.
 
-Instant Subtotaling: Watch the bill build itself! The system automatically calculates the cost for each line item and keeps a running subtotal.
+Instant Subtotaling: The system automatically calculates the cost for each line item and keeps a running subtotal.
 
 Flawless Tax: Forget manual tax calculations. The system automatically applies the required 8% sales tax to ensure the final amount is always perfect.
 
@@ -34,14 +34,14 @@ Save the Code: Save the provided Python code into a file named billing_system.py
 
 Run from Terminal: Open your terminal or command prompt, navigate to the directory where you saved the file, and execute the script:
 
-python billing_system.py
+python irisrestaurant.py
 
 
 ## Instructions for Testing
 
-We built this to be robust! Follow these simple steps to ensure everything works, especially the crash-proofing features:
+Follow these simple steps to ensure everything works, especially the crash-proofing features:
 
--1. Happy Path Test (Successful Transaction)
+- 1. Successful Transaction
 
 Enter code 1 (Paneer Lababdar).
 
@@ -55,22 +55,28 @@ Enter DONE.
 
 Expected Result: A complete bill showing the correct subtotal, 8% tax, and grand total.
 
--2. Input Validation Test (Quantity)
+- 2. Input Validation Test
 
 Enter a valid code, e.g., 3.
 
 When prompted for quantity, try entering A (non-numeric).
 
-Expected Result: The system should print "Invalid input. Please enter a number for the quantity." and prompt again—it won't crash!
+Expected Result: The system should print "Invalid input. Please enter a number for the quantity."
 
 Enter 0 (non-positive).
 
 Expected Result: The system should print "Quantity must be a positive number." and prompt again.
 
--3. Invalid Code Test (Menu Code)
+- 3. Invalid Code Test
 
 Enter a code that doesn't exist, e.g., 99.
 
 Expected Result: The system should print "Invalid menu code. Please try again or enter 'DONE'."
 
 ## Screenshots:
+
+<img width="487" height="657" alt="Screenshot 2025-11-24 at 10 49 49 PM" src="https://github.com/user-attachments/assets/4f478144-acc4-490a-90c3-6927f825392e" />
+
+<img width="499" height="264" alt="Screenshot 2025-11-24 at 10 51 04 PM" src="https://github.com/user-attachments/assets/d5c3625b-c51a-4bb4-80d7-46708e002837" />
+
+
